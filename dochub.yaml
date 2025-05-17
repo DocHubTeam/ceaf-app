@@ -35,3 +35,4 @@ docs:
     title: CEAF слой приложений
     description: Документация по архитектурному фреймворку CEAF в части слоя приложений
     source: README.md
+    icon: mdi-application
