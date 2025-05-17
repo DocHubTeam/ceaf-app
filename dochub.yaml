@@ -28,3 +28,10 @@ imports:
   - rules/root.yaml
   - functions/root.yaml
   - docs/root.yaml
+docs:
+  ceaf.app.introduction:
+    type: markdown
+    location: /CEAF/Applications
+    title: CEAF слой приложений
+    description: Документация по архитектурному фреймворку CEAF в части слоя приложений
+    source: README.md
