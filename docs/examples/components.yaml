@@ -8,6 +8,11 @@ components:
     # Классификация архитектурного компонента при представлении на даиграммах
     # Classification of an architectural component when presented on diagrams
     entity: system
+    # Технологический стек
+    # Tech stack
+    technologies:
+      - Chrome
+      - JavaScript
     # Перечисление архитектурных аспектов, который он реализует
     # Listing architectural aspects that it implements
     aspects:
@@ -25,6 +30,8 @@ components:
   dochub.frontend.module_ai.chat:
     title: Chat
     entity: system
+    technologies:
+      - vue2
     links:
       - id: dochub.frontend.module_ai.model
         direction: <->

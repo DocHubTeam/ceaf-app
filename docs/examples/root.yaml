@@ -2,3 +2,4 @@ imports:
   - aspects.yaml
   - components.yaml
   - contexts.yaml
+  - technologies.yaml
