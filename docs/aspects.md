@@ -1,22 +1,22 @@
-# Архитектурные аспекты (aspects)
+# Architectural Aspects (aspects)
 
-Аспекты выделяют архитектурные компоненты, реализующие конкретный архитектурный аспект, например, бизнес-функцию.
-В отличие от [контекстов](@document/ceaf.app.contexts), аспекты задаются непосредственно в 
-[компонентах](@document/ceaf.app.components). То есть именно в компоненте указывается, какой аспект он реализует.
+Aspects highlight architectural components that implement a specific architectural aspect, such as a business function.
+Unlike [contexts](@document/ceaf.app.contexts), aspects are defined directly in 
+[components](@document/ceaf.app.components). That is, the component specifies which aspect it implements.
 
-Пример описание функционального аспекта в манифесте:
+Example of a functional aspect description in the manifest:
 ```code-frame
 /aspects/dochub.gitlab.auth
 ```
 
-В компоненте указывается, какие аспекты он реализует:
+The component specifies which aspects it implements:
 ```code-frame
 /components/dochub.saas.frontend
 ```
 
-При [выборе аспекта в меню](@aspect/dochub.gitlab.auth) открывается его карточка. Карточка содержит расширенные сведения
-об аспекте, а также [контексты](@document/ceaf.app.contexts) в которых аспект встречается. 
+When [selecting an aspect in the menu](@aspect/dochub.gitlab.auth), its card opens. The card contains detailed information
+about the aspect, as well as [contexts](@document/ceaf.app.contexts) in which the aspect occurs.
 
-Пример представления карточки аспекта `dochub.gitlab.auth`:
-![Карточка аспекта](@aspect/dochub.gitlab.auth)
+Example representation of the aspect card `dochub.gitlab.auth`:
+![Aspect card](@aspect/dochub.gitlab.auth)
 
