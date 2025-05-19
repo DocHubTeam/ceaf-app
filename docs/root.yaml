@@ -21,4 +21,16 @@ docs:
     type: markdown
     source: contexts.md
     icon: mdi-map-legend
+  ceaf.app.components:
+    location: /CEAF/Applications/components
+    description: Архитектурные компоненты в DocHub
+    type: markdown
+    source: components.md
+    icon: mdi-puzzle
+  ceaf.app.technologies:
+    location: /CEAF/Applications/technologies
+    description: Технологический стек в DocHub
+    type: markdown
+    source: technologies.md
+    icon: mdi-audio-video
 
