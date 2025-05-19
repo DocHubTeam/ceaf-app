@@ -1,6 +1,10 @@
 # Архитектурные аспекты
 # Architectural aspects
 aspects:
+  dochub:
+    title: DocHub
+  dochub.gitlab:
+    title: GitLab
   dochub.gitlab.auth: # Структурированный идентификатор аспектра 
   # Structured aspect identifier
     title: Авторизация GitLab
@@ -9,6 +13,8 @@ aspects:
     location: DocHub/Авторизация/GitLab
     # Размещение карточки аспекта в меню относительно Архитектура/Аспекты/**
     # Placement of the aspect card in the menu relative to Architecture/Aspects/**
+  dochub.github:
+    title: GitHub
   dochub.github.auth:
     title: Авторизация GitHub
     location: DocHub/Авторизация/GitLab

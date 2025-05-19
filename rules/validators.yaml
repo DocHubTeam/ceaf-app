@@ -37,9 +37,10 @@ rules:
               $ID := $keys()[0];
               {
                   "id" : $ID,
+                  "deep": $ID~>$split(".")~>$count(),
                   "mask" : $USED[$wcard($ID, $)]
               }
-          )[$not($exists(mask))].{
+          )[deep > 1 and $not($exists(mask))].{
             "uid": "$dh-mm-ofb-" & id,
             "correction": "Добавьте компонент в контекст",
             "description": "Предполагается, что компонент не включенный в контекст не учтен.",

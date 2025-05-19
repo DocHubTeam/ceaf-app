@@ -1,6 +1,9 @@
 # Архитектурные компоненты
 # Architectural components
 components: 
+  dochub:
+    title: DocHub
+    entity: system
   dochub.frontend:
     # Структурированный (DDD) идентификатор компонента
     # Structured (DDD) component identifier
