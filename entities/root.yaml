@@ -2,6 +2,4 @@ imports:
   - components/root.yaml
   - aspects/root.yaml
   - contexts/root.yaml
-  - documents/root.yaml
   - techradar/root.yaml
-  #  - entities/root.yaml
