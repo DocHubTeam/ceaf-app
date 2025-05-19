@@ -4,6 +4,8 @@ $package:
     vendor: R.Piontik
     description: Облегченная метамодель для описания прикладного слоя
     version: 1.0.2
+    dependencies: 
+      ceaf-known: ">=1.0.0" # Требуется мета-пакет CEF управления знаниями
 imports:
   - entities/root.yaml
   - rules/root.yaml
