@@ -41,27 +41,3 @@ technologies:              # Описание технологического �
       title: axios
       section: tools
       status: adopt
-    Git:
-      title: git
-      section: tools
-      status: adopt
-    Markdown:
-      title: markdwon
-      section: parsers
-      status: adopt
-    Swagger:
-      title: swagger
-      section: parsers
-      status: adopt
-    PluntUML:
-      title: PlantUML
-      section: parsers
-      status: adopt
-    GitLab:
-      title: GitLab
-      section: storages
-      status: adopt
-    HTTP:
-      title: HTTP
-      section: storages
-      status: adopt
