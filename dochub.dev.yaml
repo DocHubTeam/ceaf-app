@@ -12,6 +12,3 @@ imports:
   # Матемодель текущего репозитория
   # Metamodel of the current repository
   - dochub.yaml
-  # Документация текущего мета-пакета
-  # Documentations of this meta-package
-  - docs/root.yaml  

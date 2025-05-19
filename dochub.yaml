@@ -8,10 +8,7 @@ $package:
       # Required meta-package CEF knowledge management
       # Зависимость от мета-пакета управления знаниями CEAF
       ceaf-known: ">=1.0.0" 
-# Documentation is not automatically included.
-# Import docs/root.yaml into your project if needed.
-# Документация автоматически не подключается.
-# Если это необходимо импортируйте docs/root.yaml в своем проекте
 imports:
   - entities/root.yaml
   - rules/root.yaml
+  - docs/root.yaml
