@@ -1,0 +1,17 @@
+contexts:   # Контексты представления архитектурных компонентов
+    dochub:                                 # Идентификатор контекста
+        title: Общая архитектура DocHub     # Название контекста
+        location: DocHub                    # Размещение документа в дереве навигации
+        components:                         # Компоненты входящие в контекст
+            - dochub.*                      # Выводятся все компоненты L1
+    dochub.frontend:
+        title: Контейнерная архитектура DocHub
+        location: DocHub/Контейнерная архитектура
+        components:
+            - dochub.frontend.*
+    dochub.frontend.module_ai:
+        title: AI Модуль
+        location: DocHub/Контейнерная архитектура/AI
+        components:
+            - dochub.frontend.module_ai.*
+

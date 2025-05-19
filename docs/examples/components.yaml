@@ -1,7 +1,7 @@
 # Архитектурные компоненты
 # Architectural components
 components: 
-  dochub.saas.frontend:
+  dochub.frontend:
     # Структурированный (DDD) идентификатор компонента
     # Structured (DDD) component identifier
     title: WEB-приложение
@@ -13,3 +13,26 @@ components:
     aspects:
       - dochub.gitlab.auth
       - dochub.github.auth
+  dochub.frontend.module_ai:
+    title: AI Dochuber
+    entity: system
+  dochub.frontend.module_ai.model:
+    title: External AI model
+    entity: system
+  dochub.frontend.module_ai.debugger:
+    title: Context debugger
+    entity: system
+  dochub.frontend.module_ai.chat:
+    title: Chat
+    entity: system
+    links:
+      - id: dochub.frontend.module_ai.model
+        direction: <->
+      - id: dochub.frontend.module_ai.debugger
+        direction: <->
+  dochub.frontend.module_jsonata:
+    title: JSONata
+    entity: system
+  dochub.frontend.module_markdown:
+    title: Markdown editor
+    entity: system

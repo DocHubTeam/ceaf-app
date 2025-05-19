@@ -1,3 +1,4 @@
+# Документация по CEAF Application
 imports: 
   - examples/root.yaml
 docs: 
@@ -6,11 +7,18 @@ docs:
     location: /CEAF/Applications
     title: CEAF слой приложений
     description: Документация по архитектурному фреймворку CEAF в части слоя приложений
-    source: README.md
+    source: ../README.md
     icon: mdi-application
   ceaf.app.aspects:
-    location: /CEAF/Applications/Аспекты
+    location: /CEAF/Applications/aspects
     description: Архитектурные аспекты в DocHub
     type: markdown
     source: aspects.md
+    icon: mdi-aspect-ratio
+  ceaf.app.contexts:
+    location: /CEAF/Applications/contexts
+    description: Архитектурные контексты в DocHub
+    type: markdown
+    source: contexts.md
+    icon: mdi-map-legend
 
