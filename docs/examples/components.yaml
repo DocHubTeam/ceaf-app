@@ -1,0 +1,15 @@
+# Архитектурные компоненты
+# Architectural components
+components: 
+  dochub.saas.frontend:
+    # Структурированный (DDD) идентификатор компонента
+    # Structured (DDD) component identifier
+    title: WEB-приложение
+    # Классификация архитектурного компонента при представлении на даиграммах
+    # Classification of an architectural component when presented on diagrams
+    entity: system
+    # Перечисление архитектурных аспектов, который он реализует
+    # Listing architectural aspects that it implements
+    aspects:
+      - dochub.gitlab.auth
+      - dochub.github.auth

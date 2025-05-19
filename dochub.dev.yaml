@@ -1,8 +1,17 @@
+# Root manifest for metamodel development tasks.
+# Connects packages directly from repositories, allowing
+# real-time editing if permissions are granted.
+#
 # Корневой манифест для задач развития метамодели.
 # Подключает пакета напрямую из репозиториев, что позволяет
 # их редактировать в реальном времени при наличии прав на это.
 imports:
-  # Метапакет CEAF для управления знаниями
+  # Мета-пакет CEAF для управления знаниями
+  # CEAF meta-package for Knowledge Management
   - github:DocHubTeam/ceaf-know:master@dochub.yaml
   # Матемодель текущего репозитория
+  # Metamodel of the current repository
   - dochub.yaml
+  # Документация текущего мета-пакета
+  # Documentations of this meta-package
+  - docs/root.yaml  

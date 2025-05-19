@@ -1,1 +1,16 @@
+imports: 
+  - examples/root.yaml
+docs: 
+  ceaf.app.introduction:
+    type: markdown
+    location: /CEAF/Applications
+    title: CEAF слой приложений
+    description: Документация по архитектурному фреймворку CEAF в части слоя приложений
+    source: README.md
+    icon: mdi-application
+  ceaf.app.aspects:
+    location: /CEAF/Applications/Аспекты
+    description: Архитектурные аспекты в DocHub
+    type: markdown
+    source: aspects.md
 

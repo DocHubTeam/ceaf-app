@@ -5,16 +5,13 @@ $package:
     description: Облегченная метамодель для описания прикладного слоя
     version: 1.0.2
     dependencies: 
-      ceaf-known: ">=1.0.0" # Требуется мета-пакет CEF управления знаниями
+      # Required meta-package CEF knowledge management
+      # Зависимость от мета-пакета управления знаниями CEAF
+      ceaf-known: ">=1.0.0" 
+# Documentation is not automatically included.
+# Import docs/root.yaml into your project if needed.
+# Документация автоматически не подключается.
+# Если это необходимо импортируйте docs/root.yaml в своем проекте
 imports:
   - entities/root.yaml
   - rules/root.yaml
-  - docs/root.yaml
-docs:
-  ceaf.app.introduction:
-    type: markdown
-    location: /CEAF/Applications
-    title: CEAF слой приложений
-    description: Документация по архитектурному фреймворку CEAF в части слоя приложений
-    source: README.md
-    icon: mdi-application
