@@ -32,5 +32,5 @@ docs:
     description: Технологический стек в DocHub
     type: markdown
     source: technologies.md
-    icon: mdi-audio-video
+    icon: mdi-radar
 
