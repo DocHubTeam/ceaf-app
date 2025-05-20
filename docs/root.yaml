@@ -4,6 +4,7 @@ imports:
 docs: 
   ceaf.app.introduction:
     type: markdown
+    toc: false
     location: /CEAF/Applications
     title: CEAF слой приложений
     description: Документация по архитектурному фреймворку CEAF в части слоя приложений
