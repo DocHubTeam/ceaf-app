@@ -3,7 +3,7 @@ $package:
     name: DocHub метамодель
     vendor: R.Piontik
     description: Облегченная метамодель для описания прикладного слоя
-    version: 1.0.2
+    version: 1.0.3
     dependencies: 
       # Required meta-package CEF knowledge management
       # Зависимость от мета-пакета управления знаниями CEAF
