@@ -7,7 +7,7 @@ entities:
       генерируются диаграммы связей. Для успешной генерации компоненты содержат необходимые метаданные.
     config:
       root_menu: Архитектура  # Корневое меню представления компонентов
-    schema:
+    schema: 
       type: object
       title: Архитектурные компоненты
       patternProperties:
@@ -20,6 +20,38 @@ entities:
             entity:
               title: Представление компонента
               type: string
+              enum: [
+                "system", "package", "node", "folder", "frame", "cloud", "database", "interface",
+                "actor", "usecase", "boundary", "control", "entity", "collections", "queue",
+                "card", "circle", "file", "hexagon", "label", "person", "stack", "storage",
+                "component"
+              ]
+            description:
+              title: Краткое описание компонента
+              type: string
+            links:
+              title: Связанные компоненты
+              description: Архитектурные компоненты с которыми данный компонент имеет связь и зависим от них
+              type: array
+              items:
+                type: object
+                title: Связанный компонент
+                properties:
+                  title:
+                    type: string
+                    title: Название связи
+                  id:
+                    type: string
+                    title: Идентификатор связанного компонента
+                  direction:
+                    type: string
+                    title: Направление связи
+                    enum: ["<--", "-->", "--"]
+                  contract:
+                    type: string
+                    title: Идентификатор документа-контракта данной связи
+                required:
+                  - id
           required:
             - title
             - entity
